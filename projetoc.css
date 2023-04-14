@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: gray;
+    padding: 15px;
+}
+
+.header h1{
+    color: black;
+    font-size: 30px;
+    font-family: 'Pacifico', cursive;
+    text-align: center;
+}
+
+.header .social a {
+    padding: 0 5px;
+    text-decoration: none;
+}
+
+.left{
+    float: left;
+    width: 180px;
+    margin: 0;
+    padding: 1em;
+    /* background-color: #005eff; */
+}
+
+table{
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    margin: 30px 0;
+}
+
+td, th{
+    border: 1px solid black;
+    padding: 8px;
+}
+
+tr:nth-child(1){
+    background-color: #005eff;
+}
+
+tr td i.fa-brands{
+    display: block;
+    font-size: 35px;
+    text-align: center;
+}
+
+.content {
+    margin-left: 190px;
+    border-left: 1px solid black;
+    padding: 1em;
+    overflow: hidden;
+}
+
+/* estilização da lista */
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+li a {
+    display: block;
+    color: black;
+    text-decoration: none;
+    padding: 6px 16px;
+}
+
+li a.active {
+    background-color: black;
+    color: white;
+}
+
+li a:hover {
+    background-color: black;
+    color: white;
+}
+
+.footer{
+    text-align: center;
+    background-color: #2e3550;
+    color: white;
+    padding: 55px 20px;
+}
+
+.content h2, p{
+    margin: 16px 8px;
+}
